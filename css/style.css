@@ -822,6 +822,18 @@ body#cv_page {
     padding-bottom:10px;
 }
 
+#images .cluster {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#images .cluster img {
+    max-width:33%;
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom:10px;
+}
+
 .footer_project_back {
     width:33%;
     text-align:center;
@@ -936,6 +948,18 @@ video {
     max-width:100%
 }
 
+#images .cluster {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#images .cluster img {
+    max-width:33%;
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom:10px;
+}
+
 .footer_project_back {
     text-align:center;
     padding:80px 0;
@@ -983,6 +1007,18 @@ video {
 
 #images {
     max-width:100%;
+}
+
+#images .cluster {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#images .cluster img {
+    max-width:33%;
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom:10px;
 }
 
 .footer_project_back {
