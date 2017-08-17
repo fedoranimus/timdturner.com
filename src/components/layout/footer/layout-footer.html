@@ -1,0 +1,8 @@
+<template>
+    <require from="./layout-footer.css"></require>
+    <footer>
+        <span class="footer-link" repeat.for="link of links">
+            <a class="footer-link-content" href="${link.uri}">${link.name}</a><span class="footer-link-separator" if.bind="$index !== links.length - 1"> / </span>
+        </span>
+    </footer>
+</template>
