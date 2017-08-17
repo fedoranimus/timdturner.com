@@ -1,0 +1,39 @@
+{
+  "name": "timdturner.com",
+  "version": "1.0.0",
+  "description": "timdturner.com personal site built in Aurelia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedoranimus/timdturner.com.git"
+  },
+  "author": "Tim Turner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedoranimus/timdturner.com/issues"
+  },
+  "homepage": "https://github.com/fedoranimus/timdturner.com#readme",
+  "dependencies": {
+    "aurelia-bootstrapper": "^2.1.1",
+    "aurelia-framework": "^1.1.4",
+    "skeleton-css": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/webpack": "^3.0.9",
+    "@types/webpack-env": "^1.13.0",
+    "aurelia-webpack-plugin": "^2.0.0-rc.3",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "html-loader": "^0.5.1",
+    "ts-loader": "^2.3.2",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1"
+  }
+}

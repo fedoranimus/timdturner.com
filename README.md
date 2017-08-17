@@ -1,6 +1,5 @@
 # timdturner.com
-My personal portfolio site
 
-Obviously all this data is available to you by going to my website and viewing the source. 
+My personal portfolio site.
 
-No reason to hide it while developing, I don't feel.
+You can view my [Twitter](https://twitter.com/fedoranimus), [LinkedIn](https://www.linkedin.com/pub/tim-turner/55/264/648), [Resume](https://standardresume.co/id/-JmZWb8Smht7rOHRLpdZ), and [Github](https://github.com/fedoranimus) pages.
