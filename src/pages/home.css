@@ -20,12 +20,12 @@ html, body {
     padding-right: 10px;
   }
 
-  .hero {
+.hero {
     display: flex;
     align-items: center;
-  }
-  
-  .hero-text {
+}
+
+.hero-text {
     font-family: Open Sans;
     font-style: normal;
     font-weight: 300;
@@ -35,16 +35,16 @@ html, body {
     color: #3B3B3B;
     display: inline-block;
     position: relative;
-  }
-  
-  .hero-text:before {
+}
+
+.hero-text:before {
     content: '';
     border-left: 1px solid #3B3B3B;
     padding-bottom: 16px;
     padding-right: 10px;
-  }
-  
-  .hero-text:after {
+}
+
+.hero-text:after {
     content: '';
     border-bottom: 1px solid #3B3B3B;
     position: absolute;
@@ -53,8 +53,8 @@ html, body {
     left: 0;
     width: 370px;
     margin-left: -14px;
-  }
-  
-  .hero-text-orange {
+}
+
+.hero-text-orange {
     color: #ED5200;
-  }
+}
