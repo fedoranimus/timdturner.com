@@ -1,0 +1,24 @@
+subtitles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.subtitle-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 24px;
+    display:table-caption;
+    
+    color: #3B3B3B;
+}
+
+.subtitle-name-coming-soon {
+    color: #828282;
+}
+.subtitle-coming-soon {
+    font-size: 18px;
+    color: #BDBDBD;
+}

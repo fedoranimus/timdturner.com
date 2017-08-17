@@ -1,4 +1,4 @@
-footer {
+.footer {
     background-color: #3B3B3B;
     height: 116px;
     width: 100%;
@@ -12,8 +12,27 @@ footer {
 
 .footer-link {
     color: #BDBDBD;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
 }
 
+.footer-link-content {
+    text-decoration: none;
+    color: #BDBDBD;
+    margin-left: .35em;
+}
+
+.footer-link-content:hover {
+    color: #BDBDBD;
+    text-decoration: underline;
+}
+
+.footer-link-separator {
+    margin: 0 1rem 0 .5rem;
+    font-size: 36px;
+    font-weight: bold;
+}
 /* .footer-link:not(:last-child):after {
     content: "/";
     font-size: 36px;
