@@ -1,0 +1,34 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 550px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 400px) { 
+    .container {
+        width: 85%;
+        padding: 0;
+    }
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px auto 116px;
+}
+
+@media (min-width: 550px) {
+   .grid {
+
+   } 
+}

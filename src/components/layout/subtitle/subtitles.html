@@ -1,4 +1,4 @@
-<template>
+<template class="subtitles">
     <require from="./subtitles.css"></require>
     <span class="subtitle" repeat.for="subtitle of subtitles">
         <span class="subtitle-name" class.bind="subtitle.isComingSoon ? 'subtitle-name-coming-soon' : ''">${subtitle.name}</span>

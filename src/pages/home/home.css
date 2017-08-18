@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 html, body {
@@ -9,32 +11,57 @@ html, body {
 }
 
 .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: calc(100% - 116px);
+
 }
 
 .logo {
     padding-right: 10px;
-  }
+    width: 32px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto !important;
+}
 
 .hero {
-    display: flex;
-    align-items: center;
+    margin-top: 2rem;
 }
 
 .hero-text {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    font-size: 72px;
-    letter-spacing: 7.2px;
+    font-size: 2.5rem;
+    letter-spacing: 2.4px;
     color: #3B3B3B;
     display: inline-block;
     position: relative;
+}
+
+@media (min-width: 1024px) {
+    .logo {
+        width: 55px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-text {
+        font-size: 72px;
+        letter-spacing: 7.2px;
+    }
+
+    .logo {
+        width: 40px;
+    }
+}
+
+@media (min-width: 425px) { 
+    .hero-text {
+        font-size: 48px;
+        letter-spacing: 4.8px;
+    }
 }
 
 .hero-text:before {
@@ -51,7 +78,8 @@ html, body {
     bottom: 0px;
     display: inline-block;
     left: 0;
-    width: 370px;
+    width: 100%;
+    /* width: 370px; */
     margin-left: -14px;
 }
 
