@@ -55,12 +55,28 @@ html, body {
     .logo {
         width: 40px;
     }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: calc(100% - 116px);
+    }
 }
 
 @media (min-width: 425px) { 
     .hero-text {
         font-size: 48px;
         letter-spacing: 4.8px;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: calc(100% - 116px);
     }
 }
 
