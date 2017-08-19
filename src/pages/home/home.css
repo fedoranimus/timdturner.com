@@ -7,11 +7,13 @@ body {
 html, body {
     margin:0;
     padding:0;
-    height:100%;
+    height: 100%;
 }
 
 .home {
-
+    position: absolute;
+    top: 0;
+    height: calc(100% - 50px);
 }
 
 .logo {
@@ -55,14 +57,6 @@ html, body {
     .logo {
         width: 40px;
     }
-
-    .home {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: calc(100% - 116px);
-    }
 }
 
 @media (min-width: 425px) { 
@@ -72,6 +66,7 @@ html, body {
     }
 
     .home {
+        position: unset;
         display: flex;
         flex-direction: column;
         align-items: center;
