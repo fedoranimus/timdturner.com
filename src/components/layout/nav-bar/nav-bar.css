@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    padding-top: 1em;
+    text-align: center;
+    height: 50px;
+}
+
+.navbar-brand img {
+    width: 30px;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+.navbar-start {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-end {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-item {
+    display: inline-block;
+}
+
+.navbar-item {
+    text-decoration: none;
+    color: #3B3B3B;
+}
+
+.navbar-item:hover {
+    text-decoration: underline;
+}

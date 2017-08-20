@@ -1,0 +1,13 @@
+<template bindable="router">
+    <require from="./nav-bar.css"></require>
+    <nav class="navbar container">
+        <div class="navbar-start">
+            <div show.bind="router.currentInstruction.config.name !== 'home'" class="navbar-brand">
+                <a href="/"><img src="../../../assets/logo.png" /></a>
+            </div>
+        </div>
+        <div class="navbar-end">
+            <a repeat.for="row of router.navigation" class="navbar-item ${row.isActive ? 'is-active' : ''}" href.bind="row.href">${row.title}</a> 
+        </div>
+    </nav>
+</template>

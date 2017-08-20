@@ -4,7 +4,6 @@ export function configure(config: FrameworkConfiguration) {
     config.globalResources(
         [
             PLATFORM.moduleName('./layout/footer/layout-footer'),
-            PLATFORM.moduleName('./layout/header/layout-header'),
             PLATFORM.moduleName('./layout/subtitle/subtitles') 
         ]);
 }

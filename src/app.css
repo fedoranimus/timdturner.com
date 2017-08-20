@@ -7,15 +7,25 @@
     box-sizing: border-box;
 }
 
+.viewport {
+    height: calc(100% - 50px - 50px);
+}
+
 @media (min-width: 550px) {
     .container {
         width: 80%;
     }
 }
 
-@media (min-width: 400px) { 
+@media (min-width: 425px) { 
     .container {
         width: 85%;
         padding: 0;
+    }
+
+    .viewport {
+        box-sizing: border-box;
+        position: unset;
+        height: calc(100% - 116px - 50px);
     }
 }

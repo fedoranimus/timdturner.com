@@ -2,6 +2,14 @@
     <require from="skeleton-css/css/normalize.css"></require>
     <require from="font-awesome/css/font-awesome.css"></require>
     <require from="./app.css"></require>
-    <router-view></router-view>
+
+    <require from='./components/layout/nav-bar/nav-bar.html'></require>
+    <header class="nav-header">
+      <nav-bar router.bind="router"></nav-bar>
+    </header>
+
+    <div class="viewport">
+      <router-view></router-view>
+    </div>
     <layout-footer></layout-footer>
 </template>
