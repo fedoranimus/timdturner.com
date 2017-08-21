@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
 .container {
     position: relative;
-    width: 100%;
     max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
@@ -8,7 +19,13 @@
 }
 
 .viewport {
-    height: calc(100% - 50px - 50px);
+    min-height: calc(100vh - 50px - 50px);
+}
+
+@media(min-width: 768px) {
+    .viewport {
+        min-height: calc(100vh - 116px - 50px);
+    }
 }
 
 @media (min-width: 550px) {
@@ -21,11 +38,5 @@
     .container {
         width: 85%;
         padding: 0;
-    }
-
-    .viewport {
-        box-sizing: border-box;
-        position: unset;
-        height: calc(100% - 116px - 50px);
     }
 }
