@@ -10,6 +10,9 @@
     padding: 1em;
     float: left;
 }
+.about h1 {
+    color: #3B3B3B;
+}
 
 @media (min-width: 768px) {
     .about p {
