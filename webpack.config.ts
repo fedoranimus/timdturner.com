@@ -55,6 +55,9 @@ const config: webpack.Configuration = {
         new CopyWebpackPlugin([
             {
                 from: 'index.html'
+            },
+            { 
+                from: 'src/assets/favicons'
             }
         ]),
         new webpack.HotModuleReplacementPlugin()
