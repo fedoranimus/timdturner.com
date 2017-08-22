@@ -1,12 +1,18 @@
 .logo {
+    display: inline-block;
     padding-right: 10px;
     width: 32px;
+    height: 31px;
+    background-image: url('../../assets/logo_small.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
-.logo img {
+/* .logo img {
     max-width: 100%;
     height: auto !important;
-}
+} */
 
 .hero {
     margin-top: 2rem;
@@ -27,6 +33,8 @@
 @media (min-width: 1024px) {
     .logo {
         width: 55px;
+        height: 53px;
+        background-image: url('../../assets/logo_large.png');
     }
 }
 
@@ -38,6 +46,8 @@
 
     .logo {
         width: 40px;
+        height: 39px;
+        background-image: url('../../assets/logo_medium.png');
     }
 
     .home {
