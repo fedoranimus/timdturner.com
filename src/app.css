@@ -19,6 +19,7 @@ html, body {
 }
 
 .viewport {
+    box-sizing: border-box;
     min-height: calc(100vh - 50px - 50px);
 }
 

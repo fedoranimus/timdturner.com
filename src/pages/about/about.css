@@ -12,6 +12,8 @@
 }
 .about h1 {
     color: #3B3B3B;
+    margin: 0;
+    padding: .67em 0;
 }
 
 @media (min-width: 768px) {
