@@ -54,38 +54,3 @@
 .navbar-item:hover:before {
     right: 0;
 }
-
-/* .navbar-item:before {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 0;
-    transition: width 0s ease, background .5s ease;
-}
-
-.navbar-item:after {
-    content: '';
-    display: block;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 3px;
-    width: 0;
-    background: #ED5200;
-    transition: width .5s ease;
-}
-
-.navbar-item:hover:before {
-    width: 100%;
-    background: #ED5200;
-    transition: width .5s ease;
-}
-
-.navbar-item:hover:after {
-    width: 100%;
-    background: transparent;
-    transition: all 0s ease;
-} */
