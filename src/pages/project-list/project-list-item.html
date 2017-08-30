@@ -1,0 +1,23 @@
+<template bindable="project" class="project-list-item">
+    <require from="./project-list-item.css"></require>
+    <div class="project-header">
+        <div class="project-image ${project.image}"></div>
+        <div class="project-header-text">
+            <div class="project-title">${project.title}</div>
+            <div class="project-status">${project.status}</div>
+        </div>
+    </div>
+    <div class="project-summary">${project.summary}</div>
+    <div class="project-links">
+        <span if.bind="project.link !== null" class="link-container">
+            <a class="project-link" href="${project.link}" target="_blank">&rarr; ${project.linkTitle}</a>
+        </span>
+        <span if.bind="project.link === null" class="link-container">
+            <span>${project.linkTitle}</span>
+        </span>
+        <span if.bind="project.github !== null" class="link-container">
+            <a class="project-link" href="${project.github}" target="_blank">&rarr; View on Github</a>
+        </span>
+
+    </div>
+</template>

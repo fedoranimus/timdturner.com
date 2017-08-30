@@ -9,8 +9,8 @@ export class App implements ConfiguresRouter {
 
         config.map([
             { route: '', moduleId: PLATFORM.moduleName('./pages/home/home'), name: 'home', nav: false, title: 'Home' },
-            { route: 'about', moduleId: PLATFORM.moduleName('./pages/about/about'), name: 'about', nav: true, title: 'About Me' },
-            { route: 'projects', moduleId: PLATFORM.moduleName('./pages/project-list/project-list'), name: 'projects', nav: false, title: 'Projects' }
+            { route: 'about', moduleId: PLATFORM.moduleName('./pages/about/about'), name: 'about', nav: true, title: 'About' },
+            { route: 'projects', moduleId: PLATFORM.moduleName('./pages/project-list/project-list'), name: 'projects', nav: true, title: 'Projects' }
         ]).mapUnknownRoutes(PLATFORM.moduleName('./pages/not-found'));
         this.router = router;
     }

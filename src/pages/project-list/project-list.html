@@ -1,0 +1,7 @@
+<template>
+    <require from="./project-list.css"></require>
+    <require from="./project-list-item.html"></require>
+    <div class="container project-list">
+        <project-list-item repeat.for="project of projects" project.bind="project"></project-list-item>
+    </div>
+</template>

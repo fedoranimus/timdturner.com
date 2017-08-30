@@ -35,6 +35,7 @@
     color: #3B3B3B;
     padding-bottom: 1px;
     overflow: hidden;
+    margin-left: 1em;
 }
 
 .navbar-item:before {

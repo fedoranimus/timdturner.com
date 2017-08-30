@@ -1,0 +1,87 @@
+.project-list-item {
+    color: #3B3B3B;
+    height: 250px;
+    width: 100%;
+}
+
+.project-image {
+    height: 107px;
+    width: 105px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.project-header-text {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: .5rem;
+}
+
+.project-title {
+    font-size: 24px;
+}
+
+.project-status {
+    font-size: 18px;
+    color: #979797;
+}
+
+.project-summary {
+
+}
+
+.project-links {
+    margin-top: 1rem;
+}
+
+.link-container {
+    display: block;
+    padding-bottom: 1px;
+    margin-bottom: 1rem;
+}
+
+.link-container span {
+    font-style: italic;
+}
+
+.project-link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #3B3B3B;
+}
+
+.project-link:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #ED5200;
+    height: 3px;
+    transition-property: right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.project-link:hover:before {
+    right: 0;
+}
+
+.timesheet {
+    background-image: url('../../assets/timesheet/Login.png');
+}
+
+.scratchpad {
+    background-image: url('../../assets/scratchpad-fever/menu.png');
+}
+
+.today {
+    background-image: url('../../assets/today/logo.png');
+}
+
+.covalence {
+    background-image: url('../../assets/covalence/logo.png');
+}
