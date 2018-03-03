@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server --open",
-    "deploy": "push-dir --dir=dist --branch=gh-pages"
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",

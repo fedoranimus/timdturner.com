@@ -9,11 +9,11 @@ const config: webpack.Configuration = {
     },
     devtool: 'inline-source-map',
     devServer: {
-        contentBase: './dist',
+        contentBase: './docs',
         hot: true
     },
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'docs'),
         filename: '[name].js',
         chunkFilename: '[name].js'
     },
