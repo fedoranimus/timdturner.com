@@ -14,8 +14,8 @@ export class ProjectList {
             image: "covalence",
             status: "In Development",
             summary: "Web app to help people to find mentors. Targeted towards college educated individuals in STEM fields.",
-            link: "https://covalence.timdturner.com",
-            linkTitle: "Closed Alpha",
+            link: null,
+            linkTitle: "Beta coming soon",
             github: "https://github.com/fedoranimus/Covalence"
         },
         {
