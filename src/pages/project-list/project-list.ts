@@ -1,6 +1,15 @@
 export class ProjectList {
     projects: Project[] = [
         {
+            title: "Aspen Unified PIMS",
+            image: "aspen",
+            status: "Released",
+            summary: "Web-based oil refinery optimization platform.",
+            link: "https://www.aspentech.com/en/resources/video/planning-is-personal---introducing-unified-pims",
+            linkTitle: "Visit Website",
+            github: null
+        },
+        {
             title: "Today",
             image: "today",
             status: "Open Beta",
@@ -14,8 +23,8 @@ export class ProjectList {
             image: "covalence",
             status: "In Development",
             summary: "Web app to help people to find mentors. Targeted towards college educated individuals in STEM fields.",
-            link: null,
-            linkTitle: "Beta coming soon",
+            link: "https://becovalent.com",
+            linkTitle: "Visit Website",
             github: "https://github.com/fedoranimus/Covalence"
         },
         {
@@ -32,8 +41,8 @@ export class ProjectList {
             image: "scratchpad",
             status: "Sunset",
             summary: "An early augmented reality game built while interning at Modern Climate. Nominated for a Webby award.",
-            link: null,
-            linkTitle: "Case Study coming soon",
+            link: "http://www.modernclimate.com/work/scratch-pad-fever",
+            linkTitle: "Visit Website",
             github: null
         }
     ];
