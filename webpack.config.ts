@@ -1,6 +1,8 @@
 import * as path from 'path';
 import * as webpack from 'webpack';
 import { AureliaPlugin } from 'aurelia-webpack-plugin';
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CnameWebpackPlugin = require('cname-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const config: webpack.Configuration = {
@@ -14,8 +16,8 @@ const config: webpack.Configuration = {
     },
     output: {
         path: path.resolve(__dirname, 'docs'),
-        filename: '[name].js',
-        chunkFilename: '[name].js'
+        filename: '[name].[hash].js',
+        chunkFilename: '[name].[hash].js'
     },
     resolve: {
         extensions: [
@@ -49,17 +51,21 @@ const config: webpack.Configuration = {
     ]
     },
     plugins: [
+        new HtmlWebpackPlugin({
+            filename: './index.html',
+            template: './index.template.html'
+        }),
         new AureliaPlugin({
             aureliaApp: 'main'
         }),
         new CopyWebpackPlugin([
-            {
-                from: 'index.html'
-            },
             { 
                 from: 'src/assets/favicons'
             }
         ]),
+        new CnameWebpackPlugin({
+            domain: 'timdturner.com'
+        }),
         new webpack.HotModuleReplacementPlugin()
     ]
 }
