@@ -21,3 +21,27 @@
         font-size: 24px;
     }
 }
+
+.skills {
+    display: grid;
+    margin-top: 2em;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-row-gap: 1rem;
+}
+
+
+@media (min-width: 425px) {
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+}

@@ -16,6 +16,7 @@
     vertical-align: top;
     display: inline-block;
     margin-left: .5rem;
+    width: 55%;
 }
 
 .project-title {
@@ -25,6 +26,11 @@
 .project-status {
     font-size: 18px;
     color: #979797;
+    
+}
+
+.project-role {
+
 }
 
 .project-summary {
@@ -84,8 +90,22 @@
 
 .covalence {
     background-image: url('../../assets/covalence/logo.png');
+    background-position: center;
 }
 
 .aspen {
     background-image: url('../../assets/aup/aspen.png');
+    background-position: center;
+}
+
+.radarr {
+    background-image: url('../../assets/radarr/logo.png');
+}
+
+.vr-meditations {
+    background-image: url('../../assets/vr-meditations/aframe.png');
+}
+
+.massive-deeps {
+    background-image: url('../../assets/massive-deeps/logo.png');
 }
